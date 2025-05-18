@@ -13,7 +13,7 @@ Deepfakes pose a serious threat to digital media authenticity. In this project, 
 ## Model Architecture
 - Base model: ResNet34 (pretrained on ImageNet, fine-tuned for binary classification)
 - Explainability tools: GradCAM, LIME and IG
-- 
+
 ## Results
 -  Accuracy Achieved: 99.21%
 -  Strong performance on validation and test sets
@@ -27,7 +27,7 @@ Deepfakes pose a serious threat to digital media authenticity. In this project, 
 ## How to Use
 You can easily run this project using Google Colab by following these steps:
 1) Open the Notebook
-2) Import the provided .ipynb notebook into your Google Colab environment.
+2) Import the provided .py notebook into your Google Colab environment.
 
 Upload the Dataset (Kaggle)
 This project uses the "140k Real and Fake Faces" dataset from Kaggle.
